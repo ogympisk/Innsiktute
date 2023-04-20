@@ -1,0 +1,54 @@
+/* basic styles */
+
+/* nav styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #fff;
+  text-transform: uppercase;
+}
+
+nav ul {
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: flex-end; */
+}
+
+nav li {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+/* nav p, */
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("img/bal.jpg");
+
+  height: 100%;
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  /* position: absolute; */
+  margin: 20px;
+  width: auto;
+}
+
+/* hjem */
